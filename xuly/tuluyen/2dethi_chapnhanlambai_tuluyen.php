@@ -1,4 +1,4 @@
-﻿<div id="chapnhantl">
+<div id="chapnhantl">
 <?php
 session_start();
 if(isset($_SESSION['username'])) 

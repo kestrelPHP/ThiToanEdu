@@ -1,7 +1,7 @@
 
 #trangchu {
 	background: #FFF;
-	width: 1100px;
+	awidth: 1100px;
 	margin:0 auto;
 	border:1px solid #b78dd9;
 	border-top:none;
@@ -11,28 +11,28 @@
 	}
 
 .corner {
-	
+
 background: #fff;
 	border:1px solid #b78dd9;
 	-moz-border-radius: 7px;
 	-webkit-border-radius: 7px;
 	}
-	
+
 	/* Begin Content */
 #main_page {			/*Thân chính*/
-	width: 870px;
+	awidth: 870px;
 	float: left;
 	padding: 5px 4px 0;
 	position: relative;
-min-height: 300px; 
+min-height: 300px;
 
 }
 	/* Begin Sidebar */
 #right_col {
-	width: 200px;				/*cột phải*/
-	float: right; 
+	awidth: 200px;				/*cột phải*/
+	float: right;
 	padding: 5px 5px 0;
-min-height: 300px; 
+min-height: 300px;
 
 	}
 
@@ -54,16 +54,16 @@ min-height: 300px;
 	margin-bottom: 5px;
 }
 /* End Footer */
-	
+
 div.dethi{
-    width: 650px;
+    awidth: 650px;
     float:right;margin:18px 0px 10px 0px;
     text-indent: 1.2em;
 	float:right;
-   
+
 }
 div.dethi1{
-    width:530px;
+    awidth:530px;
     float:right;margin:18px 0px 10px 0px;
     text-indent: 1.2em;
 }
@@ -72,7 +72,7 @@ div.images{
 	display:block;
 	position:relative;
     font-size:0;
-    
+
 }
 .clear{
     border-bottom:1px dashed #b78dd9;
@@ -87,7 +87,7 @@ p.thongtin{
     color:#000;
     line-height:22px;
     text-indent: 1.2em;
-	 padding-top:5px; 
+	 padding-top:5px;
 	padding-left:5px;
 	 border-bottom:1px;border-bottom-style:dashed;border-bottom-color:#666666;
 	border-left:1px;border-left-style:dashed;border-left-color:#666666;
@@ -116,11 +116,11 @@ div.made{
 .but{
     margin:30px 0px 0px 300px;
     height:30px;
-    width:100px;
+    awidth:100px;
     border:1px dashed #555;
     background:#b78dd9;
     clear:both
-    
+
 }
 .chon{
     float:right;
@@ -163,7 +163,7 @@ input{
 
 .bg_top_right {
 background: url(../images/bg_t_r.png) no-repeat left top;
-width: 260px;
+awidth: 260px;
 margin: auto;
 height: 38px;
 }
@@ -178,15 +178,15 @@ margin-left: auto;
 
 /*dang nhap*/
 .total {
-	width: 198px;
+	awidth: 198px;
 	margin-top: 10px;
 }
 .total .totalbq {
-	width: 198px;
+	awidth: 198px;
 }
 .total .totalbq .total-top {
 	height: 25px;
-	width: 198px;
+	awidth: 198px;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 12px;
 	line-height: 25px;
@@ -195,7 +195,7 @@ margin-left: auto;
 	text-align: center;
 }
 .total .totalbq .total-cent {
-	width: 188px;
+	awidth: 188px;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 12px;
 	color: #E61358;
@@ -219,11 +219,11 @@ border-radius: 5px;
 .bottom1 {
 background-image: url(../images/bottom001.jpg);
 height: 25px;
-width: 70px;
-border-top-width: 0px;
-border-right-width: 0px;
-border-bottom-width: 0px;
-border-left-width: 0px;
+awidth: 70px;
+border-top-awidth: 0px;
+border-right-awidth: 0px;
+border-bottom-awidth: 0px;
+border-left-awidth: 0px;
 font-family: Tahoma, Geneva, sans-serif;
 font-size: 12px;
 color: #FFF;
@@ -239,24 +239,24 @@ margin-left: 25px}
 {
 	margin:0;
 	padding:0;
-	
+
 	color:#fff;
 	background:url(../images/box_hr.jpg) left repeat-x;
 	line-height:23px;
-	width:100%;
+	awidth:100%;
 	padding-left:0px;
 }
 .tgp_box h1 span
 {
 	display:inline-block;
 	line-height:23px;
-	width:100%;
+	awidth:100%;
 	margin:0px 10px;
 	font-size:13px;
 }
 .tgp_box .main_page
 {
-	
+
 	padding:1px;
 	background:#fff;
 	line-height:15px;

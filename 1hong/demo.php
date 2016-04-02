@@ -1,4 +1,4 @@
-﻿<?php do { ?>
+<?php do { ?>
   <script type="text/javascript">
 $("a.<?php echo $row_words['lower(Kruid)']; ?>").qtip({
    content: { text: '<span class="oms">Smaak :</span> <?php echo $row_words['Smaak']; ?>  <span class="oms">Lekkerin :</span> <?php echo ($row_words['Lekkerin']); ?>  <img src="../images/ingredienten/<?php echo $row_words['Foto']; ?>" width="64" height="64" />' },

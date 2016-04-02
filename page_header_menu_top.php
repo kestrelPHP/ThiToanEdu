@@ -1,4 +1,4 @@
-﻿	<div id="head">
+	<div id="head">
 		<div class="logo">
 			<a href="" title="Thi Toán online" rel="home">Thi Toán online</a>
 		</div>	 

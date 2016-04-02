@@ -1,4 +1,4 @@
-﻿<link rel="shortcut icon" href="favicon.ico" />
+<link rel="shortcut icon" href="favicon.ico" />
 <link rel="stylesheet" type="text/css" href="css/stylehome.css"/>
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <link rel="stylesheet" type="text/css" href="css/home.css"/>
@@ -10,6 +10,11 @@
 <link rel="stylesheet" type="text/css" href="xuly/css/style_phantrang.css"/> 
 
 <link rel="stylesheet" type="text/css" href="css/thetooltip.css"/>
+
+<!--bootstrap libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript"></script>
 
 
 <script src="xuly/javascript/jquery-latest.pack.js" type="text/javascript"></script>

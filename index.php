@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // Begin Session if not present
 if(!isset($_SESSION)){
     session_start();
@@ -12,7 +12,7 @@ if(!isset($_SESSION)){
 </head>
 
 <body onload="setCountDown();">
-<div id="trangchu">
+<div id="trangchu" class="container">
 	<div id="head_banner"> <!-- Begin Header -->
 		<div id="banner">
 			<div id="logo">
@@ -93,8 +93,5 @@ if(!isset($_SESSION)){
 		<?php include("dongho/index.php");?>
 	</div>
 <!--End-->
-<script>
-console.log($.fn.jquery);
-</script>
 </body>
 </html>

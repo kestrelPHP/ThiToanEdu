@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 //Gọi các file sau: tooltip.js và tooltip.css (có thể: include_once('goi_tooltip.php');  ). Nếu muốn thay hiệu ứng tooltip thì thay 2 file này; hiện có 3 hiệu ứng sẵn có trong \themes
 
 //Trong thẻ href cần gọi tooltip bằng cách sử dụng hàm: onmouseover="tooltip.pop(this, '#id_the_div_noidung_tooltip', {position:1, offsetX:-20, effect:'slide', sticky: true})"
