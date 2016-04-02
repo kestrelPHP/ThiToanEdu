@@ -1,0 +1,130 @@
+
+
+/* -- Imported styles ----------------------------- */
+
+@import url("general.css");
+@import url("icon.css");
+
+/* -- Specific styles ----------------------------- */
+
+
+form .inputbox  { width: 120px; margin-left: 10px; }
+form br         { display: none; }
+.login          {  margin:auto; width: 550px; 
+}
+.login-box{
+	margin-top:30px;
+text-align:center;}
+
+h1 {
+  margin: 15px 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+#lock  {
+    background: url(../images/admin/j_login_lock.jpg) 50% 0 no-repeat;
+    width: 150px;
+    height: 137px;
+    
+}
+
+#section-box  { float: right; width: 320px; margin-left: 10px;}
+
+#section-box .m {
+  padding: 5px;
+}
+#section-box .padding {
+    background: none; padding: 0;
+}
+
+.button { text-align: right; }
+
+.login-form    { text-align: left; width: 60%; }
+.login-form h1 { display: none; }
+.login-form p  { padding: 0 1em 0 1em; }
+
+.login-text { text-align: left; width: 40%; float: left; }
+
+#form-login label {
+    display: block;
+    float: left;
+    width: 120px;
+    text-align: right;
+    padding: 4px;
+    color: #666;
+    font-weight: bold;
+}
+
+#form-login .button_holder {
+    
+    float: right;
+    width:200px;
+    padding-left: 200px;
+}
+
+#form-login div.button1{
+    float: left;
+}
+
+#form-login div.button1 div.next {
+    float: left;
+}
+
+/* Readmore line separate*/
+hr#system-readmore  { border: red dashed 1px; color: red; }
+
+th.title a{
+color: #2C79BF;
+text-decoration: none;
+font-size: 9pt; 
+}
+
+td {
+    text-align: left;
+    font-family: tahoma;
+    font-size: 11px;
+    color: #4B4B4B;
+    line-height: 13px;
+}
+.copyright{
+    height: 20px; 
+    text-align: center;
+    
+}
+
+table.adminList td.pagination { display: -moz-box; padding:0;  margin:0 auto;    }
+
+.pagination div.limit {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin: 0 10px;
+}
+.container {clear:both; text-decoration:none;}
+
+/* ------------------------------- */
+.tableFilter {
+    /* border: 1px solid #ccc; */
+    padding: 2px;
+    margin: 5px 0 10px 0;
+}
+
+.tableFilter input {
+    border: 1px solid #ccc;
+}
+
+.tableFilter select {
+    border: 1px solid #ccc;
+}
+.clr {
+    clear: both;
+}
+
+p#form-login-username, p#form-login-email, p#password{
+	text-align: left;
+}

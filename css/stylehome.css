@@ -1,0 +1,153 @@
+/*
+	OTHER CLASS
+*/
+.hinhanh{
+    background-color: #F9F9F9;
+    border: 1px solid #CCCCCC;
+    padding: 3px;
+    font: 11px Arial;
+    margin-left: auto;
+    margin-right: auto;
+	
+    }
+.clear {
+	clear:both;
+	}
+.floatleft {
+	float:left;
+	}
+.floatright {
+	float:right;
+	}
+
+
+	/* Begin Header*/
+#navigation {
+			padding: 0;
+			float:left;
+			width:100%;			/*thanh menu*/
+			background:url(../images/menu1234.png) repeat-x bottom left;
+			z-index: 10000;
+			height: 36px;
+
+}
+
+	
+#menu-header {
+			padding: 0;
+			float:left;
+			width:100%;			/*thanh menu*/
+			background: transparent;  /*url(../images/menu.png) repeat-x bottom left;*/
+			z-index: 10000;
+}
+
+#head_banner {					/*paner*/
+	width:100%;			
+	height: 160px;
+	float:left;
+
+}
+#banner {					
+	background:url(../images/banner.png) no-repeat top center;
+	width:1100px;			
+	height: 120px;
+}
+
+#logo {
+	position: relative; 
+	height: 120px;
+	width: 120px;
+	float:left;
+	background:url(../images/logo.png) no-repeat top center;
+}
+#logo a {
+	display: block;
+	text-indent:-9999px;
+	height: 120px;
+	width: 120px;
+
+}
+			
+#head_banner ul {
+	padding: 0 0 0 0;
+	float:left;
+	width:75%;			/*thanh menu*/
+}
+#head_banner ul li{		/*Nút menu*/
+	float:left;
+	padding: 0 10px;
+	position:relative;
+
+}
+#head_banner ul li a{
+	display:block;
+	height: 26px;
+	font-size:14px;
+	font-weight:bold;
+	color: #fff;
+}
+#head_banner ul li a:hover, a:hover {
+	color: #ff0000;
+}
+				
+					
+#head_banner form {			/*Tìm kiếm*/
+	background:url(../images/search-bg.png) no-repeat;
+	float: right;
+	width: 230px;
+	padding: 0;
+	height: 35px;
+
+}
+#head_banner form label {
+	display:none;
+}
+#head_banner form input {
+	display:block;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#head_banner form input[type=text] {
+	width: 200px;
+	height: 30px;
+	padding: 3px 0 0 10px;
+	font-size:12px;
+	background:none;
+	border:none;
+}
+#head_banner form input[type=submit] {
+	text-indent:-9999px;
+	width: 25px;
+	height: 25px;
+	background:none;
+	border:none;
+	cursor:pointer;
+
+	/* End Header */
+
+	
+	/* Begin Color Choice */
+	.style {
+		position: absolute;
+		top: 18px;
+		right: 20px;
+		z-index:9999;
+		}
+	.style li {
+		float: left;
+		margin-left: 3px;
+		}
+	.style a{
+		background:url(../images/color.png) scroll;
+		width: 22px;
+		height: 22px;
+		display:block;
+		text-indent:-9999px;
+		}
+	/* End Color Choice */
+		
+
+
+
+
+

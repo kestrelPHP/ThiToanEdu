@@ -1,0 +1,55 @@
+#demnguoc_than {
+	background-color: transparent;
+}
+
+
+
+#tgianconlai {
+    padding: 3px;
+text-align: center;
+border-width: 3px; 
+border-style: solid; 
+border-color: #ff0000; 
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+	font-weight: bold;
+	background-image: url(../images/demnguoc_tt.png);
+	background-repeat: repeat-x;
+    color: #ffffff;
+	font-size: 17px;
+
+}
+
+
+#ghitgian {
+    padding: 10px;
+text-align: center;
+border-width:1px; 
+border-style: solid; 
+border-color: #4096EE; 
+	font-weight: bold;
+	background: #999900;
+	background-repeat: repeat-x;
+    color: #fff;
+border-radius: 15px;
+border-color: #996600; 
+border-width: 3px; 
+
+}
+
+th {
+    padding: 1px;
+	background-image: url(../images/demnguoc_hbg.gif);
+	background-repeat: repeat-x;
+    color:#fff;
+}
+
+td {
+    padding: 1px;
+}
+
+
+
+
+

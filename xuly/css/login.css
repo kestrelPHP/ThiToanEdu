@@ -1,0 +1,57 @@
+body
+{
+  background-color: #778AAF;
+  margin-top: 60px;
+}
+
+form
+{
+  border: 0px;
+  padding: 0px;
+}
+
+.loginbox
+{
+  border: 1px solid #5D729B;
+  padding: 0px;
+  width: 400px;
+  height: 100px;
+  background-color: #F8F9FB;
+
+  font-size: 11px;
+  font-family: verdana;
+  color: #FF0000;
+}
+
+.logintitle
+{
+  font-size: 11px;
+  font-family: verdana;
+  color: #FFFFFF;
+
+  background-image: url(images/menu_category_bg.gif);
+
+  background-color: #778AAF;
+  margin:           0px;
+
+  padding-top:      2px;
+  padding-bottom:   2px;
+  padding-right:    2px;
+  padding-left:     5px;
+
+  border-width:  0px;
+}
+
+.loginusername
+{
+  font-size: 11px;
+  font-family: verdana;
+  color: #778AAF;
+}
+
+.loginpassword
+{
+  font-size: 11px;
+  font-family: verdana;
+  color: #778AAF;
+}

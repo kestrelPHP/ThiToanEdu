@@ -1,0 +1,4 @@
+Gồm các file:
+showhide.css
+showhide.js
+và thư mục: images

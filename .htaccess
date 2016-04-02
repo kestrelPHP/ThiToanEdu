@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# phần cơ bản
+RewriteRule ^vao-thi-xem/([0-9]*)/				?page=vaothi
+RewriteRule ^home/								?page=index.php
+RewriteRule ^gioi-thieu/						?page=gt
+RewriteRule ^huong-dan/						    ?page=hd
+RewriteRule ^lien-he/							?page=gopy

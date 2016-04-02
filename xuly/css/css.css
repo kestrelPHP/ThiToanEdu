@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+     border: 0pt none;
+     font: inherit;
+     margin: 0pt;
+     padding: 0pt;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+     display: block;
+}
+
+body {
+     line-height: 1;
+}
+
+ol, ul {
+     list-style: none outside none;
+}
+
+blockquote, q {
+     quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+     content: none;
+}
+
+table {
+     border-collapse: collapse;
+     border-spacing: 0pt;
+}
+a{
+	text-decoration:none;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+	font-size:0!important;
+}
+ 
+.clearfix {
+	display: inline-block;
+	width:100%;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+/*---end reset---*/
+
+body{
+    font-family:helvetica,arial,sans-serif;
+    font-size:12px;
+    color:#555;
+	background-color:#f4f4f4;
+}
+
+.main{
+    width:300px;
+    margin:120px auto;
+}
+
+a{
+    color:#555;
+	-moz-transition:background-color 0.2s ease,color 0.2s ease;
+	-webkit-transition:background-color 0.2s ease,color 0.2s ease;
+	-o-transition:background-color 0.2s ease,color 0.2s ease;
+	-ms-transition:background-color 0.2s ease,color 0.2s ease;
+	transition:background-color 0.2s ease,color 0.2s ease;
+}
+
+.navigation a{
+    display:block;
+    padding:10px;
+}
+
+.navigation > li > a{
+    border-top:1px solid #e1e1e1;
+	position:relative;
+}
+
+.navigation > li:last-child > a{
+	border-bottom:1px solid #e1e1e1;
+}
+
+.navigation ul a{
+    padding-left:30px;
+}
+
+.navigation ul{
+    display:none;
+}
+
+.navigation > li > a:hover,.navigation .on{
+	background-color:#00aeff;
+	color:#fff;
+	border-top-color:#fff;
+}
+
+.navigation ul a:hover{
+	background-color:#ffc000;
+	color:#fff;
+}
+
+.lv2 > a:before, .lv2 > a:after{
+	position:Absolute;
+	content:"";
+	background-color:#d9d9d9;
+}
+
+.lv2 > a:before{
+    width:10px;
+    height:2px;
+    right:8px;
+    top:14px;
+}
+
+.lv2 > a:after{
+    width:2px;
+    height:10px;
+    right:12px;
+    top:10px;
+}
+
+.lv2 > .on:after{
+	display:none;
+}
+
+.lv2:hover a:after,.lv2:hover a:before,.lv2 .on:after,.lv2 .on:before{
+    background-color:#fff;
+}

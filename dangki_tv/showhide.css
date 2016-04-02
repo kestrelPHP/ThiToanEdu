@@ -1,0 +1,30 @@
+
+#first { 
+	width: 200px; 
+	margin-top: -70px; 
+	padding: 28px 25px; 
+	background-color: white; 
+	border: 1px solid black; 
+	border-radius: 5; 
+	position :absolute; 
+	left: 50%;
+	margin-left:-80px; 
+	top:0px; 
+	z-index: 20;
+
+}
+		
+#second { 
+	width: 700px; 
+	margin-top: -170px; 
+	padding: 28px 25px; 
+	background-color: white;
+	display:none; 
+	border: 1px solid black; 
+	border-radius: 5; 
+	position :absolute;
+	left: 20%;
+	z-index: 20;
+
+}  
+ 

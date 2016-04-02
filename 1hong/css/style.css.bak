@@ -1,0 +1,138 @@
+/* CSS Document */
+@media screen {
+* { margin: 0; padding: 0; }    
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+ul, ol {list-style: none;}
+strong {font-weight: bold;}
+
+article, aside, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+.group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.group { display: inline-block; clear: both; }
+/* start commented backslash hack \*/ * html .group { height: 1%; } .group { display: block; } /* close commented backslash hack */
+
+body { 
+	font: 12px/2 "Helvetica Neue",Helvetica,Arial,sans-serif; 
+	background:url(../images/bg.png);
+	margin:0;
+}
+
+/*
+	TYPOGRAPHY
+*/
+h1, h2, h3, h4, h5 {}
+a img { border: 0; }
+a {color: #ce9702; text-decoration: none;}
+.zoomer:active { top: 0; }
+
+#page-wrap{margin:0 auto; width:1200px;}
+#header{height: 70px; padding:0;
+background: transparent;
+}
+
+#header h1 a{
+	display:block;
+	width:1200px;
+	height:70px;
+	background: url(../images/header.png) no-repeat center;
+	text-indent:-9999999px;
+	}
+	
+/*Begin Menu*/	
+#top-bar{	
+	background:#DCC09C;
+	padding:1px 0 0 0;
+	
+}
+#menu-page-menu li{
+	position: relative; float:left;	
+}
+#menu-page-menu li a{display:block; float:left;
+	padding:0px 10px;
+	font-size:16px;
+	color:#000;
+	
+}
+#menu-page-menu li a:hover{
+	color: #ff0000;
+	
+}
+#menu-page-menu li ul{ position: absolute; top:100%;
+	width: 200px;
+	display:none;
+	z-index:1000px;
+}
+#menu-page-menu li:hover ul{	
+	display:block;
+	background: #ffccff;
+}
+#menu-page-menu li ul li a{
+	float:none;
+	font-size:14px;
+	/*border-left:1px solid white;
+	border-right:1px solid white;*/
+}
+menu-page-menu li ul li{
+	background-color: #bcd4da; width:100%;
+}
+menu-page-menu li ul li a:hover{
+	background-color:#d7e7ea; color: #6600ff;
+}
+	
+#fw_menu_2
+{
+	width:1000px;
+	background:#f2f5f7;
+	height:35px;
+	border-bottom:solid 1px #e2e9eb;
+	margin:0 auto; width:1000px;
+}
+#xinchao{
+	margin:3px;
+	color:#FFF;
+	font-size:14px;
+	font-weight:bold;
+}
+#chao{
+	top: 0px;
+	float:right;
+	margin:3px;
+	color:#FFF;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+
+.tinytable th {background:url(../images/images_sort/header-bg.gif); text-align:left; color:#cfdce7; border:1px solid #fff; border-right:none}
+.tinytable th h3 {font-size:10px; padding:6px 8px 8px}
+.tinytable td {padding:4px 6px 6px; border-bottom:1px solid #c6d5e1; border-right:1px solid #c6d5e1}
+.tinytable .head h3 {background:url(../images/images_sort/sort.gif) 7px center no-repeat; cursor:pointer; padding-left:18px}
+.tinytable .desc, .sortable .asc {background:url(../images/images_sort/header-selected-bg.gif)}
+.tinytable .desc h3 {background:url(../images/images_sort/desc.gif) 7px center no-repeat; cursor:pointer; padding-left:18px}
+.tinytable .asc h3 {background:url(../images/images_sort/asc.gif) 7px  center no-repeat; cursor:pointer; padding-left:18px}
+.tinytable .head:hover, .tinytable .desc:hover, .tinytable .asc:hover {color:#fff}
+.tinytable .evenrow td {background:#fff}
+.tinytable .oddrow td {background:#ecf2f6}
+.tinytable td.evenselected {background:#ecf2f6}
+.tinytable td.oddselected {background:#dce6ee}
+.tinytable tfoot {background:#fff; font-weight:bold}
+.tinytable tfoot td {padding:6px 8px 8px}

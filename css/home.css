@@ -1,0 +1,292 @@
+
+#trangchu {
+	background: #FFF;
+	width: 1100px;
+	margin:0 auto;
+	border:1px solid #b78dd9;
+	border-top:none;
+	border-bottom:none;
+	padding: 2px 2px 2px;
+	position:relative;
+	}
+
+.corner {
+	
+background: #fff;
+	border:1px solid #b78dd9;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	}
+	
+	/* Begin Content */
+#main_page {			/*Thân chính*/
+	width: 870px;
+	float: left;
+	padding: 5px 4px 0;
+	position: relative;
+min-height: 300px; 
+
+}
+	/* Begin Sidebar */
+#right_col {
+	width: 200px;				/*cột phải*/
+	float: right; 
+	padding: 5px 5px 0;
+min-height: 300px; 
+
+	}
+
+.clr{clear: both;}
+
+	/* End Sidebar */
+/* Begin Footer */
+#footer {
+	background-image: url(../images/footer2.jpg);
+	background-repeat: repeat-x;
+	height: 70px;
+	clear: both;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 5px;
+	padding: 10px 0;
+	font-size: 12px;
+	color: #F69;
+	margin-bottom: 5px;
+}
+/* End Footer */
+	
+div.dethi{
+    width: 650px;
+    float:right;margin:18px 0px 10px 0px;
+    text-indent: 1.2em;
+	float:right;
+   
+}
+div.dethi1{
+    width:530px;
+    float:right;margin:18px 0px 10px 0px;
+    text-indent: 1.2em;
+}
+div.images{
+    float:left;
+	display:block;
+	position:relative;
+    font-size:0;
+    
+}
+.clear{
+    border-bottom:1px dashed #b78dd9;
+    height:5px
+}
+p.thongtin{
+    color:#F00;
+    line-height:10px;
+    text-indent: 1.2em;
+}
+.chitiet{
+    color:#000;
+    line-height:22px;
+    text-indent: 1.2em;
+	 padding-top:5px; 
+	padding-left:5px;
+	 border-bottom:1px;border-bottom-style:dashed;border-bottom-color:#666666;
+	border-left:1px;border-left-style:dashed;border-left-color:#666666;
+}
+div.debai{
+    font-size:14px;
+    color:#b00dd9;
+    font-weight:bold;
+    line-height:30px;
+    text-align:center
+}
+div.made{
+    font-size:13px;
+    color:#b00dd9;
+    font-weight:bold;
+     text-align:center;
+     line-height:20px
+}
+.tende{
+    font-size:13px;
+    font-weight:bold;
+    background:#eee;
+    line-height:35px;
+    padding:0px 0px 0px 10px
+}
+.but{
+    margin:30px 0px 0px 300px;
+    height:30px;
+    width:100px;
+    border:1px dashed #555;
+    background:#b78dd9;
+    clear:both
+    
+}
+.chon{
+    float:right;
+
+}
+a.login{
+    float:right;
+    color:#fff;
+    line-height:40px;
+    margin-right:30px
+}
+a.login:hover{
+   color:#999
+}
+div.login{
+    border:1px dashed #ccc;
+     height:80px;
+     font-weight:bold;
+     padding:20px 0px 0px 0px
+}
+.login ul li{
+    float: left;
+    padding:0 20px;
+    list-style:none
+
+}
+input.sublogin{
+    background:#999;
+    border:1px dashed;
+    color:#fff;
+    height:32px;
+	cursor:pointer
+}
+input{
+    border:1px dashed #999;
+    color:#222;
+    height:32px
+}
+
+
+.bg_top_right {
+background: url(../images/bg_t_r.png) no-repeat left top;
+width: 260px;
+margin: auto;
+height: 38px;
+}
+.lienhe {
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 12px;
+color: #666;
+margin-right: auto;
+margin-left: auto;
+}
+
+
+/*dang nhap*/
+.total {
+	width: 198px;
+	margin-top: 10px;
+}
+.total .totalbq {
+	width: 198px;
+}
+.total .totalbq .total-top {
+	height: 25px;
+	width: 198px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	color: #FFF;
+	background-color: #E61358;
+	text-align: center;
+}
+.total .totalbq .total-cent {
+	width: 188px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #E61358;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	line-height: 20px;
+}
+.total .frame-total .totalbq .total-cent .total-them {
+	text-align: center;
+	border: 1px solid #eeeeee;
+}
+.frame-total {
+display: inline-block;
+overflow: hidden;
+border: 1px solid #eeeeee;
+-moz-border-radius: 10px;
+border-radius: 5px;
+}
+.bottom1 {
+background-image: url(../images/bottom001.jpg);
+height: 25px;
+width: 70px;
+border-top-width: 0px;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 12px;
+color: #FFF;
+float: center;
+background-repeat: no-repeat;
+margin-left: 25px}
+
+.tgp_box
+{
+	margin-bottom:5px;
+}
+.tgp_box h1
+{
+	margin:0;
+	padding:0;
+	
+	color:#fff;
+	background:url(../images/box_hr.jpg) left repeat-x;
+	line-height:23px;
+	width:100%;
+	padding-left:0px;
+}
+.tgp_box h1 span
+{
+	display:inline-block;
+	line-height:23px;
+	width:100%;
+	margin:0px 10px;
+	font-size:13px;
+}
+.tgp_box .main_page
+{
+	
+	padding:1px;
+	background:#fff;
+	line-height:15px;
+}
+.tieude{
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+	color:#F00;	
+}
+
+
+.req_input {		
+	color: red;	
+	font-size: .8em;
+}
+
+#chapnhantl {
+	text-align: center;
+	margin:auto;
+
+}
+#submit_tl {
+    float: center;
+	margin:auto;
+
+}
+#footer_tl {
+    float: center;
+	margin:auto;
+}

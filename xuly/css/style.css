@@ -1,0 +1,195 @@
+a:link    { color: #000000; FONT-SIZE: 12px; text-decoration: underline; }
+a:active  { color: #000000; FONT-SIZE: 12px; text-decoration: underline; }
+a:visited { color: #000000; FONT-SIZE: 12px; text-decoration: underline; }
+a:hover   { color: #000000; FONT-SIZE: 12px; text-decoration: underline; }
+
+
+.copyright
+{
+  display: block;
+
+  font-size:         12px;
+  color:             #819AAD;
+
+  background-color:  #F5F9FD;
+  margin:            0px;
+  padding:           0px;
+
+  border-width:      1px;
+  border-color:      #DDE7EC;
+  border-style:      solid;
+
+  width:             100%;
+}
+
+
+BODY
+{
+  BACKGROUND-COLOR: #FFFFFF;
+  COLOR: #3F3849;
+  FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif;
+  FONT-SIZE: 12px;
+
+  MARGIN-TOP:    0px;
+  MARGIN-BOTTOM: 10px;
+  MARGIN-LEFT:   20px;
+  MARGIN-RIGHT:  20px;
+
+  scrollbar-base-color: #819AAD;
+}
+
+
+img { border: 0; }
+
+FORM { margin: 0; padding: 0; }
+
+td, font
+{
+  font: 11px verdana, arial, sans-serif;
+  color: #333333;
+}
+
+
+.title
+{
+  font: 14px verdana, geneva, arial, sans-serif;
+  color: #526952;
+}
+
+
+.tdrow1
+{
+  border-bottom:1px solid #D1DCEB;
+  border-right:1px solid #D1DCEB ;
+  border-top:1px solid #FFFFFF;
+  border-left:1px solid #FFFFFF;
+
+  font-family: verdana;
+  font-size:   11px;
+  color:       #7A9ABC;
+  font-weight: bold;
+
+  background-image:  url(images/gradient.gif);
+}
+
+
+.tdrow2
+{
+  background-color:#EDF1F6;
+  border-bottom:1px solid #D1DCEB;
+  border-right:1px solid #D1DCEB ;
+  border-top:1px solid #FFFFFF;
+  border-left:1px solid #FFFFFF;
+}
+
+
+.tdrow3
+{
+  background-color:#F5FAFF;
+  border-bottom:1px solid #D1DCEB;
+  border-right:1px solid #D1DCEB;
+  border-top:1px solid #FFFFFF;
+  border-left:1px solid #FFFFFF;
+}
+
+
+.header
+{
+  background-color: #FFFFFF;
+
+  padding-left:   2px;
+  padding-right:  2px;
+  padding-bottom: 2px;
+  padding-top:    0px;
+
+  border-top-width:    0px;
+  border-bottom-width: 1px;
+  border-left-width:   1px;
+  border-right-width:  1px;
+
+  border-color:  #D1D3D4;
+  border-style:  solid;
+}
+
+
+.pagetitle
+{
+  color:       #FFFFFF;
+  font-size:   12px;
+  font-family: verdana;
+
+  background-color: #778AAF;
+  margin:           0px;
+
+  padding-top:      2px;
+  padding-bottom:   2px;
+
+  border-width:  0px;
+}
+.logo{
+	width: 170px;
+	height: 100px;
+	padding-top: 10px;
+text-align:center;
+	
+}
+.logo img{
+	padding-left: 10px;
+	
+}
+
+.section_title{
+	color: #819AAD;
+	font-weight: bold;
+	font-size: 120%;
+	text-align: center;
+}
+ul.cat-list li{
+	list-style:none;
+	height: 20px;
+	background: url('../images/check.png') no-repeat ;
+	padding-left: 30px;
+}
+.tcat
+{
+	height:30px;
+	background: #65B8DA;
+	color: #FFFFFF;
+	text-align:center;
+	font: bold 12px verdana, tahoma, arial;
+	background: url('../images/tieudebang.gif')
+}
+table.border{
+	border: silver  solid 1px;
+}
+table.border td{
+	border-bottom: #DDE7EC solid 1px;
+	border-right: #DDE7EC solid 1px;
+}
+
+table td.title-head{
+	 text-align:center; 
+	 font-weight:bold; 
+}
+table td.row-head{
+	 text-align:right; 
+	 font-weight:bold;
+	 padding-right: 12px; 
+}
+
+.font_02{
+	color: red;
+}
+.font_01{
+	color: blue;
+}
+
+.font_03{
+	color: silver;
+}
+
+/*---------------------------LOGINFORM--------------------------------*/
+.loginform{
+	
+}
+
