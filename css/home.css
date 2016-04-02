@@ -1,12 +1,10 @@
 
 #trangchu {
 	background: #FFF;
-	awidth: 1100px;
 	margin:0 auto;
 	border:1px solid #b78dd9;
 	border-top:none;
 	border-bottom:none;
-	padding: 2px 2px 2px;
 	position:relative;
 	}
 
@@ -20,19 +18,16 @@ background: #fff;
 
 	/* Begin Content */
 #main_page {			/*Thân chính*/
-	awidth: 870px;
 	float: left;
-	padding: 5px 4px 0;
 	position: relative;
 min-height: 300px;
 
 }
+.sept-right {
+	border-right: 1px solid #eee;
+}
 	/* Begin Sidebar */
 #right_col {
-	awidth: 200px;				/*cột phải*/
-	float: right;
-	padding: 5px 5px 0;
-min-height: 300px;
 
 	}
 

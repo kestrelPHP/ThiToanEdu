@@ -47,6 +47,10 @@ a img { border: 0; }
 a {color: #0000ff; text-decoration: none; font-weight:bold; font-size:13px;}
 .zoomer:active { top: 0; }
 
+#wrap {
+	width: 100%;
+	float: left;
+}
 /*Begin Menu*/
 #top-bar{
 	background:transparent;
