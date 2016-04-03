@@ -11,7 +11,19 @@ if (!isset($_SESSION)) {
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <?php include("xuly/config/connect.php"); include("rewrite.php"); include("page_lay_link.php"); ?>
 </head>
-
+<?php
+function current_page ($name) {
+    if( isset($_REQUEST['page']) && $_REQUEST['page'] == $name ){
+        echo 'active';
+    } elseif ( isset($_REQUEST['menu']) && $_REQUEST['menu'] == $name ){
+        echo 'active';
+    } elseif ( empty($_REQUEST) && $name =="" ){
+        echo 'active';
+    } else {
+        echo "";
+    }
+}
+?>
 <body onload="setCountDown();">
 <div id="trangchu" class="container">
     <div class="row">
@@ -21,7 +33,7 @@ if (!isset($_SESSION)) {
             </div>
         </div>
     </div>
-    <div class="row">
+    <div id="nav-menu-top" class="row">
         <div class="navbar navbar-inverse navbar-static-top" role="navigation">
 
             <div class="navbar-header">
@@ -36,15 +48,15 @@ if (!isset($_SESSION)) {
 
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.php">Trang Chủ</a></li>
-                    <li><a href="?page=vaothi">Vào Thi</a></li>
-                    <li><a href="?page=tuluyen">Tự Luyện</a></li>
-<!--                    <li><a href="?menu=dethi_list_tuluyen">Đề thi tự luyện</a></li>-->
-                    <li><a href="?page=hien_baitap">Bài tập</a></li>
-                    <li><a href="?page=t_kiem">Tìm kiếm</a></li>
-                    <li><a href="?page=hd">Hướng dẫn</a></li>
-                    <li><a href="?page=lienhe">Liên hệ</a></li>
-<!--                    <li><a href="?page=gt">Giới thiệu</a></li>-->
+                    <li><a href="index.php" class="<?php current_page("");?>">Trang Chủ</a></li>
+                    <li><a href="?page=vaothi" class="<?php  current_page("vaothi");?>">Vào Thi</a></li>
+                    <li><a href="?page=tuluyen" class="<?php  current_page("tuluyen");?>">Tự Luyện</a></li>
+                    <li><a href="?menu=dethi_list_tuluyen" class="<?php  current_page("dethi_list_tuluyen");?>">Đề thi tự luyện</a></li>
+                    <li><a href="?page=hien_baitap" class="<?php  current_page("hien_baitap");?>">Bài tập</a></li>
+                    <li><a href="?page=t_kiem" class="<?php  current_page("t_kiem");?>">Tìm kiếm</a></li>
+                    <li><a href="?page=hd" class="<?php  current_page("hd");?>">Hướng dẫn</a></li>
+                    <li><a href="?page=lienhe" class="<?php  current_page("lienhe");?>">Liên hệ</a></li>
+                    <li><a href="?page=gt" class="<?php  current_page("gt");?>">Giới thiệu</a></li>
                 </ul>
 
                 <div class="col-sm-3 col-md-3 pull-right">
@@ -147,13 +159,25 @@ if (!isset($_SESSION)) {
     <?php include("dongho/index.php"); ?>
 </div>
 <style>
+    .opacity09 {
+        opacity: 0.9;
+    }
+    .navbar-nav li a.active{
+        color: #ffff00;
+        background: #111;
+    }
     @media (min-width: 768px) and (max-width: 1000px) {
         #first {
             position :absolute;
             left: 33%;
         }
         .navbar-inverse .navbar-nav>li>a {
-            padding: 15px 9px;
+            padding: 15px 7px;
+            font-size: 10px;
+        }
+        .navbar-fixed-top .navbar-nav>li>a {
+            padding: 15px 7px;
+            font-size: 10px;
         }
     }
     @media (min-width: 1000px) {
@@ -161,8 +185,28 @@ if (!isset($_SESSION)) {
             position :absolute;
             left: 33%;
         }
+        .navbar-inverse .navbar-nav>li>a {
+            padding: 15px 12px;
+            font-size: 12px;
+        }
+        .navbar-fixed-top .navbar-nav>li>a {
+            padding: 15px 12px;
+            font-size: 12px;
+        }
     }
 </style>
 <!--End-->
+
+<script type="text/javascript">
+    $(document).scroll(function(e){
+        var scrollTop = $(document).scrollTop();
+        if(scrollTop > 0){
+            console.log(scrollTop);
+            $('.navbar').removeClass('navbar-static-top').addClass('navbar-fixed-top opacity09');
+        } else {
+            $('.navbar').removeClass('navbar-fixed-top opacity09').addClass('navbar-static-top');
+        }
+    });
+</script>
 </body>
 </html>

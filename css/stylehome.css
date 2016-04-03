@@ -128,7 +128,7 @@
 .navbar-inverse .navbar-nav>li>a {
 	color: #FFFFFF;
     font-size: 14px;
-    padding: 15px 15px;
+    padding: 15px 10px;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #ffff00;
