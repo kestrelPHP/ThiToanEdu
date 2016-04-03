@@ -1,4 +1,3 @@
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <style type="text/css">
 
 .container22 {width: 130px; margin: 0 auto; overflow: hidden;}
@@ -65,9 +64,8 @@ setInterval( function() {
 });
 </script>
 
-</head>
-<body>
-<div class="container22">
+
+<div class="container22 hidden-xs hidden-sm">
 <div class="clock">
 <div id="Date"></div>
 
@@ -81,5 +79,3 @@ setInterval( function() {
 
 </div>
 </div>
-</body>
-</html>

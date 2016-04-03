@@ -44,7 +44,6 @@ body {
 	padding:0;
 }
 a{text-decoration:none;}
-.main_div{margin:30px 0 0 50px; width:580px }	
 ul.load_content{ margin:0; padding:0; list-style-type:none;}
 ul.load_content li {
 	border-bottom: 1px solid #ddd;

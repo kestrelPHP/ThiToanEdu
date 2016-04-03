@@ -18,26 +18,31 @@
 <body>
 
 
-
+<div class="tieudedm"> Tìm Kiếm</div>
 <form action="" method="POST" name="form1" id="form1">
-	<table  class='bang' border="0" align="center" cellpadding="4" cellspacing="0">
+	<table id="tb-search"  class='bang' border="0" align="center" cellpadding="4" cellspacing="0">
 
 		<tr>
-			<td align="left" >Tìm kiếm theo: <span style="color:red;font-size:22px">*</span></td>
-			<td>
+			<td class="hidden-md hidden-lg" align="left" >Tìm kiếm theo: <span style="color:red;font-size:22px">*</span></td>
+		</tr>
+		<tr>
+			<td class="hidden-xs hidden-sm" align="left" >Tìm kiếm theo: <span style="color:red;font-size:22px">*</span></td>
+			<td class="pdb-10">
 				<select name='ndtk'>
 					<option value="idhs">Mã học sinh</option>
 					<option value="username">Tên đăng nhập</option>
 					<option value="hoten">Tên học sinh</option>
 				</select>
 			</td>
-		 </tr> 
+		 </tr>
 		<tr>
-			<td>Nhập thông tin cần tìm:</td>
-			<td><input width='200'  class="xanhlacay1 cssnut" name="thongtincantin" type="text" class="txtfield" /> </td>
+			<td class="hidden-md hidden-lg">Nhập thông tin cần tìm:</td>
 		</tr>
 		<tr>
-			<td>&nbsp;</td>
+			<td class="hidden-xs hidden-sm">Nhập thông tin cần tìm:</td>
+			<td class="pdb-10"><input width='200'  class="xanhlacay1 cssnut" name="thongtincantin" type="text" class="txtfield" /> </td>
+		</tr>
+		<tr>
 			<td><input type="submit" class="maudo cssnut" name="ok" id="ok" value="Tìm học sinh" /></td>
 		</tr>
 	</table>

@@ -1,19 +1,18 @@
 
 #first { 
-	width: 200px; 
-	margin-top: -70px; 
+	width: 248px;
+	max-height: 300px;
+	margin-top: -20px;
 	padding: 28px 25px; 
 	background-color: white; 
-	border: 1px solid black; 
-	border-radius: 5; 
-	position :absolute; 
-	left: 50%;
-	margin-left:-80px; 
-	top:0px; 
-	z-index: 20;
+	border: 1px solid black;
+	position :absolute;
+	top:0px;
+	left: 25px;
+	z-index: 9999;
 
 }
-		
+
 #second { 
 	width: 700px; 
 	margin-top: -170px; 

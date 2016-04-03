@@ -70,13 +70,34 @@ function check_frmdangnhap(the_form)
 				else{
 			?>
 				<form action="" name="frmdangnhap" onSubmit="return check_frmdangnhap(this)" method="post" enctype="multipart/form-data">
-					<label for="userid" class="username"><img src="images/icon_username.png" width="15" height="15" align="absmiddle" /></label>
-					<input type="text" name="username" placeholder="UserName" id="username" value="" size="22" />		  <br />
-					
-					<label for="password"><img src="images/icon_forget.png" width="15" height="15" align="absmiddle" /></label>
-					<input type="password" placeholder="PassWord" name="password" id="password" value="" size="22" />  <br />
-					
-					<center><input type="submit" class="bottom1" name="dangnhap" id="dangnhap" value="Đăng nhập" /></center>
+<!--					<label for="userid" class="username"><img src="images/icon_username.png" width="15" height="15" align="absmiddle" /></label>-->
+<!--					<input type="text" name="username" placeholder="UserName" id="username" value="" size="22" />		  <br />-->
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label class="sr-only" for="username">UserName</label>
+                            <div class="input-group">
+                                <div class="input-group-addon"><label for="userid" class="username"><img
+                                            src="images/icon_username.png" width="15" height="15"
+                                            align="absmiddle"/></label></div>
+                                <input type="text" class="form-control" id="username" placeholder="UserName">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label class="sr-only" for="username">PassWord</label>
+                            <div class="input-group">
+                                <div class="input-group-addon"><label for="password"><img src="images/icon_forget.png" width="15" height="15" align="absmiddle" /></label></div>
+                                <input type="text" class="form-control" id="password" placeholder="PassWord">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <input type="submit" class="bottom1 text-center" name="dangnhap" id="dangnhap" value="Đăng nhập" />
+                        </div>
+                    </div>
+
 				</form> 
 			<?php	} 	?>	
 			</div>

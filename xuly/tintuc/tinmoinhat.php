@@ -1,8 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title></title>
 <script type="text/javascript">
 	$(function() {
 
@@ -34,16 +29,15 @@
 </script>
 <style>
 a{text-decoration:none;}
-.main_div{margin: 30px 0 0 0; width: auto }	
 ul.load_content{ margin:0; padding:0; list-style-type:none;}
-ul.load_content li {
+/*ul.load_content li {
 	border-bottom: 1px solid #ddd;
     color: #000000;
     display: block;
     font: 14px Arial,Helvetica,sans-serif;
     padding: 10px 0 0 15px;
     text-decoration: none;
-}
+}*/
 .tinlienquan_button {
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #CCCCCC;
@@ -72,10 +66,6 @@ ul.load_content li {
 .tinlienquan_div{padding:10px;}
 .all_loaded{font: bold 15px arial; color:#0D92E1; padding: 20px 0 0 0;     text-align: center;}
 </style>
-</head>
-
-<body>
-
 <div class='main_div'>
 	<ul class="load_content" id="load_tinlienquan_ctnt">
 	<div class="tieudedm">TIN MỚI NHẤT</div>
@@ -100,5 +90,3 @@ ul.load_content li {
 				</div>
 		</div>
 </div>
-</body>
-</html>

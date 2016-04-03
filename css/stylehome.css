@@ -49,7 +49,7 @@
 }
 #banner {					
 	background:url(../images/banner.png) no-repeat top center;
-	width:1100px;			
+	width:100%;
 	height: 120px;
 }
 
@@ -89,8 +89,66 @@
 #head_banner ul li a:hover, a:hover {
 	color: #ff0000;
 }
-				
-					
+#wrap a:hover {
+	text-decoration: none;
+	color: #ff0000;
+}
+#wrap a {
+	text-decoration: none;
+	color: #0000ff;
+}
+#wrap .nut_xanhlacay {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#wrap ul.load_content li {
+	color: #000000;
+	display: block;
+	font-size: 14px;
+	padding: 10px 0 0 15px;
+	text-decoration: none;
+}
+#wrap ul.load_content li:not(:last-child) {
+	border-bottom: 1px solid #ddd;
+}
+.navbar-inverse {
+	background-color: rgb(212,112,245);
+	border-color: rgb(212,112,245);
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #FFFFFF;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #FFFFFF;
+    font-size: 14px;
+    padding: 15px 15px;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #ffff00;
+    background: #111;
+}
+.navbar-brand {
+    padding: 0px;
+}
+.img-50x50 {
+    width: 50px;
+    height: 50px;
+}
+.main_div {
+    margin: 0px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.pdb-10 {
+    padding-bottom: 10px;
+}
 #head_banner form {			/*Tìm kiếm*/
 	background:url(../images/search-bg.png) no-repeat;
 	float: right;
@@ -145,7 +203,7 @@
 		text-indent:-9999px;
 		}
 	/* End Color Choice */
-		
+
 
 
 

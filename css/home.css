@@ -173,7 +173,7 @@ margin-left: auto;
 
 /*dang nhap*/
 .total {
-	awidth: 198px;
+	width: 100%;
 	margin-top: 10px;
 }
 .total .totalbq {
@@ -200,6 +200,7 @@ margin-left: auto;
 	padding-left: 5px;
 	line-height: 20px;
 }
+.form-control {border-radius: 0px !important;}
 .total .frame-total .totalbq .total-cent .total-them {
 	text-align: center;
 	border: 1px solid #eeeeee;
@@ -210,25 +211,29 @@ overflow: hidden;
 border: 1px solid #eeeeee;
 -moz-border-radius: 10px;
 border-radius: 5px;
+	width: 100%;
+	float:left;
 }
 .bottom1 {
-background-image: url(../images/bottom001.jpg);
-height: 25px;
-awidth: 70px;
 border-top-awidth: 0px;
 border-right-awidth: 0px;
 border-bottom-awidth: 0px;
 border-left-awidth: 0px;
-font-family: Tahoma, Geneva, sans-serif;
 font-size: 12px;
 color: #FFF;
-float: center;
 background-repeat: no-repeat;
-margin-left: 25px}
+    background-color: rgb(255,0,102);
+    padding: 2px 15px;
+}
 
-.tgp_box
-{
+.tgp_box {
 	margin-bottom:5px;
+    width: 100%;
+    float: left;
+}
+.tgp_box.slash-dash-1 {
+    border-bottom: 1px dashed #b78dd9;
+    padding-top: 5px;
 }
 .tgp_box h1
 {
